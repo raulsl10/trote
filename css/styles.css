@@ -1,0 +1,39 @@
+body {
+    font-family: arial, sans-serif;
+    margin: 0 ;
+    padding: 0 ;
+    background-color: #f4f4f4;
+    text-align: center;
+
+
+}
+header {
+    background-color: #28a745;
+    color: whitesmoke;
+    padding: 15px 0px; /*15 px (espacamento interno acima e abaixo,e 0px espacamento interno aos lados)*/
+    font-size: 24px;
+
+}
+nav {
+    background: #007bff;
+    padding: 10px;
+    display: flex; /*flex boxing*/
+    justify-content: space-between;
+    align-items: center;
+}
+#links-menu{
+    display: flex;
+    gap: 30px;/* */
+
+}
+nav a{/*configura links do menu*/
+    color: whitesmoke;
+    text-decoration: none; /*nao decora os links*/
+    padding: 10px 15px;/*10 cima e baixo,15 esquerda direita*/
+    font-size: 18px;
+    background: #0056b3;
+    border-radius: 15px;
+}
+a :hover{
+    cursor: pointer;
+}
