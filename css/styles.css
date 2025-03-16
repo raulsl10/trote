@@ -2,13 +2,13 @@ body {
     font-family: arial, sans-serif;
     margin: 0 ;
     padding: 0 ;
-    background-color: #f4f4f4;
+    background-color: gray;
     text-align: center;
 
 
 }
 header {
-    background-color: #28a745;
+    background-color:yellow;
     color: whitesmoke;
     padding: 15px 0px; /*15 px (espacamento interno acima e abaixo,e 0px espacamento interno aos lados)*/
     font-size: 24px;
@@ -36,4 +36,21 @@ nav a{/*configura links do menu*/
 }
 a :hover{
     cursor: pointer;
+}
+img{
+    width: 120px;
+    height: auto;
+    margin-right: 60px;
+    border-radius: 15px;
+}
+.container {
+    width: 80%;
+    background-color: white;
+    border-radius: 15px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: justify;
+}
+h2 {
+    text-align: center;
 }
