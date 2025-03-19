@@ -26,7 +26,7 @@ nav {
     gap: 30px;/* */
 
 }
-nav a{/*configura links do menu*/
+.hom{
     color: whitesmoke;
     text-decoration: none; /*nao decora os links*/
     padding: 10px 15px;/*10 cima e baixo,15 esquerda direita*/
@@ -34,32 +34,93 @@ nav a{/*configura links do menu*/
     background: #0056b3;
     border-radius: 15px;
 }
-a:hover{
-    cursor: pointer;      
-}
 .hom:hover {
-    background-color:#191970; 
+    background-color:#191970;
+    cursor: pointer; 
+}
+.intro{
+    color: whitesmoke;
+    text-decoration: none; /*nao decora os links*/
+    padding: 10px 15px;/*10 cima e baixo,15 esquerda direita*/
+    font-size: 18px;
+    background: #0056b3;
+    border-radius: 15px;
 }
 .intro:hover{
     background-color:#191970;
+    cursor: pointer;
+}
+.obj{
+    color: whitesmoke;
+    text-decoration: none; /*nao decora os links*/
+    padding: 10px 15px;/*10 cima e baixo,15 esquerda direita*/
+    font-size: 18px;
+    background: #0056b3;
+    border-radius: 15px;
 }
 .obj:hover{
     background-color:#191970;
+    cursor: pointer;
+}
+.form{
+    color: whitesmoke;
+    text-decoration: none; /*nao decora os links*/
+    padding: 10px 15px;/*10 cima e baixo,15 esquerda direita*/
+    font-size: 18px;
+    background: #0056b3;
+    border-radius: 15px;
 }
 .form:hover{
     background-color:#191970;
+    cursor: pointer;
+}
+.gin{
+    color: whitesmoke;
+    text-decoration: none; /*nao decora os links*/
+    padding: 10px 15px;/*10 cima e baixo,15 esquerda direita*/
+    font-size: 18px;
+    background: #0056b3;
+    border-radius: 15px;
 }
 .gin:hover{
     background-color:#191970;
+    cursor: pointer;
+}
+.inte{
+    color: whitesmoke;
+    text-decoration: none; /*nao decora os links*/
+    padding: 10px 15px;/*10 cima e baixo,15 esquerda direita*/
+    font-size: 18px;
+    background: #0056b3;
+    border-radius: 15px;
 }
 .inte:hover{
     background-color:#191970;
+    cursor: pointer;
+}
+.obs{
+    color: whitesmoke;
+    text-decoration: none; /*nao decora os links*/
+    padding: 10px 15px;/*10 cima e baixo,15 esquerda direita*/
+    font-size: 18px;
+    background: #0056b3;
+    border-radius: 15px;
 }
 .obs:hover{
     background-color:#191970;
+    cursor: pointer;
+}
+.calc{
+    color: whitesmoke;
+    text-decoration: none; /*nao decora os links*/
+    padding: 10px 15px;/*10 cima e baixo,15 esquerda direita*/
+    font-size: 18px;
+    background: #0056b3;
+    border-radius: 15px;
 }
 .calc:hover{
     background-color:#191970;
+    cursor: pointer;
 }
 img{
     width: 120px;
