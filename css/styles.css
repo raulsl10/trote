@@ -33,10 +33,12 @@ nav {
     font-size: 18px;
     background: #0056b3;
     border-radius: 15px;
+    transition: background-color 0.5s ease, transform 0.5s ease;
 }
 .hom:hover {
     background-color:#191970;
-    cursor: pointer; 
+    cursor: pointer;
+    border-radius: 8px; 
 }
 .intro{
     color: whitesmoke;
@@ -45,10 +47,12 @@ nav {
     font-size: 18px;
     background: #0056b3;
     border-radius: 15px;
+    transition: background-color 0.5s ease, transform 0.5s ease;
 }
 .intro:hover{
     background-color:#191970;
     cursor: pointer;
+    border-radius: 8px;
 }
 .obj{
     color: whitesmoke;
@@ -57,10 +61,12 @@ nav {
     font-size: 18px;
     background: #0056b3;
     border-radius: 15px;
+    transition: background-color 0.5s ease, transform 0.5s ease;
 }
 .obj:hover{
     background-color:#191970;
     cursor: pointer;
+    border-radius: 8px;
 }
 .form{
     color: whitesmoke;
@@ -69,10 +75,12 @@ nav {
     font-size: 18px;
     background: #0056b3;
     border-radius: 15px;
+    transition: background-color 0.5s ease, transform 0.5s ease;
 }
 .form:hover{
     background-color:#191970;
     cursor: pointer;
+    border-radius: 8px;
 }
 .gin{
     color: whitesmoke;
@@ -81,10 +89,12 @@ nav {
     font-size: 18px;
     background: #0056b3;
     border-radius: 15px;
+    transition: background-color 0.5s ease, transform 0.5s ease;
 }
 .gin:hover{
     background-color:#191970;
     cursor: pointer;
+    border-radius: 8px;
 }
 .inte{
     color: whitesmoke;
@@ -93,10 +103,12 @@ nav {
     font-size: 18px;
     background: #0056b3;
     border-radius: 15px;
+    transition: background-color 0.5s ease, transform 0.5s ease;
 }
 .inte:hover{
     background-color:#191970;
     cursor: pointer;
+    border-radius: 8px;
 }
 .obs{
     color: whitesmoke;
@@ -105,10 +117,12 @@ nav {
     font-size: 18px;
     background: #0056b3;
     border-radius: 15px;
+    transition: background-color 0.5s ease, transform 0.5s ease;
 }
 .obs:hover{
     background-color:#191970;
     cursor: pointer;
+    border-radius: 8px;
 }
 .calc{
     color: whitesmoke;
@@ -117,10 +131,12 @@ nav {
     font-size: 18px;
     background: #0056b3;
     border-radius: 15px;
+    transition: background-color 0.5s ease, transform 0.5s ease;
 }
 .calc:hover{
     background-color:#191970;
     cursor: pointer;
+    border-radius: 8px;
 }
 img{
     width: 120px;
@@ -135,6 +151,7 @@ img{
     margin: 20px auto;
     padding: 20px;
     text-align: justify;
+    box-shadow: 3px 3px #A9A9A9;
 }
 h2 {
     text-align: center;
