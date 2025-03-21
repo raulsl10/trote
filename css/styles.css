@@ -12,8 +12,6 @@ header {
     color: whitesmoke;
     padding: 15px 0px; /*15 px (espacamento interno acima e abaixo,e 0px espacamento interno aos lados)*/
     font-size: 24px;
-    border-radius: 0px 0px 12px 12px;
-
 }
 nav {
     background: #007bff;
@@ -215,6 +213,8 @@ th, td {
 }
 .foto:hover{
     box-shadow: 4px 4px;
+    opacity: 80%;
+
 }
 ol li {
     padding-bottom: 10 px;
