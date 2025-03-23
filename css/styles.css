@@ -229,3 +229,52 @@ ol li {
     border-radius: 0px 0px 12px 12px;
     text-align: center;
 }
+
+.face{
+    color: whitesmoke;
+    text-decoration: none; /*nao decora os links*/
+    padding: 10px 15px;/*10 cima e baixo,15 esquerda direita*/
+    font-size: 18px;
+    background: #0056b3;
+    border-radius: 15px;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+    position: static; 
+}
+.face:hover {
+    background-color:#191970;
+    cursor: pointer;
+    border-radius: 8px; 
+    color: gold;
+}
+.twiter{
+    color: whitesmoke;
+    text-decoration: none; /*nao decora os links*/
+    padding: 10px 15px;/*10 cima e baixo,15 esquerda direita*/
+    font-size: 18px;
+    background: #0056b3;
+    border-radius: 15px;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+    position: static;
+}
+.twiter:hover{
+    background-color:#191970;
+    cursor: pointer;
+    border-radius: 8px; 
+    color: gold;
+}
+.zap{
+    color: whitesmoke;
+    text-decoration: none; /*nao decora os links*/
+    padding: 10px 15px;/*10 cima e baixo,15 esquerda direita*/
+    font-size: 18px;
+    background: #0056b3;
+    border-radius: 15px;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+    position:static; 
+}
+.zap:hover{
+    background-color:#191970;
+    cursor: pointer;
+    border-radius: 8px; 
+    color: gold;
+}
