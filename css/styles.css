@@ -219,7 +219,7 @@ ol li {
     padding-bottom: 10 px;
 }
 .unifacef{
-    top: 10pc;
+    top: 15pc;
     position: relative;
     background-color:#007bff;
     font-family: Arial, Helvetica, sans-serif;
@@ -238,7 +238,8 @@ ol li {
     background: #0056b3;
     border-radius: 15px;
     transition: background-color 0.5s ease, transform 0.5s ease;
-    position: static; 
+    position: relative;
+    top: 5pc;
 }
 .face:hover {
     background-color:#191970;
@@ -254,7 +255,8 @@ ol li {
     background: #0056b3;
     border-radius: 15px;
     transition: background-color 0.5s ease, transform 0.5s ease;
-    position: static;
+    position: relative;
+    top: 5pc;
 }
 .twiter:hover{
     background-color:#191970;
@@ -270,11 +272,27 @@ ol li {
     background: #0056b3;
     border-radius: 15px;
     transition: background-color 0.5s ease, transform 0.5s ease;
-    position:static; 
+    position:relative; 
+    top: 5pc;
 }
 .zap:hover{
     background-color:#191970;
     cursor: pointer;
     border-radius: 8px; 
     color: gold;
+}
+.sis{
+    position: relative;
+    transition:1s;
+}
+.sis:hover{
+    transition: 1s;
+    margin-left: 35pc;
+    margin-right:35pc ;
+}
+.campos{
+    margin-bottom: 20px;
+}
+.igual:hover{
+    cursor: pointer;
 }
