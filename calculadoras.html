@@ -23,21 +23,64 @@
                 <a href="observacoes.html" class="obs">Observações</a>
                 <a href="calculadoras.html" class="calc">Calculadoras</a>
             </div>
-            <img src="images/image.png" alt="Trote solidário" class="foto"/>
+            <a href="https://www.unifacef.com.br/" target="_blank">
+                <img src="images/image.png" alt="Trote solidário">
+            </a>
         </nav>
         <div class="container">
             <h2>CALCULADORAS</h2>
             <form>
                 <div class="campos">
-                    <label>Mascote do time</label>
+                    <label>MASCOTE DA EQUIPE</label>
                     <input type="number" id="mascote"/>
                 </div>
                 <div class="campos">
-                    <label> Homenagem a um atleta </label>
+                    <label>HOMENAGEM A ESPORTISTAS</label>
                     <input type="number" id="homenagem"/>
                 </div>
                 <div class="campos">
-                    <button type="button" onclick="calcular()" class="igual"> Calcular </button>
+                    <label>QUANTIDADE DE LITROS DE LEITE</label>
+                    <input type="number" id="leite"/>
+                </div>
+                <div class="campos">
+                    <label>KIT ALIMENTAÇÃO (AVULSOS)</label>
+                    <input type="number" id="kitAvulso"/>
+                </div>
+                <div class="campos">
+                    <label>SUPLEMENTO (AVULSOS)</label>
+                    <input type="number" id="suplementoAvulso"/>
+                </div>
+                <div class="campos">
+                    <label>PACOTE DE ARROZ DE 5 KG(AVULSO)</label>
+                    <input type="number" id="arroz5Avulso"/>
+                </div>
+                <div class="campos">
+                    <label>PACOTE DE ARROZ DE 1 KG(AVULSO)</label>
+                    <input type="number" id="arroz1Avulso"/>
+                </div>
+                <div class="campos">
+                    <label>PACOTE DE FEIJÃO DE 2 KG(AVULSO)</label>
+                    <input type="number" id="feijao2Avulso"/>
+                </div>
+                <div class="campos">
+                    <label>PACOTE DE FEIJÃO DE 1 KG(AVULSO)</label>
+                    <input type="number" id="feijao1Avulso"/>
+                </div>
+                <div class="campos">
+                    <label>PACOTE DE MACARRÃO DE 400/500 G(AVULSO)</label>
+                    <input type="number" id="macarraoAvulso"/>
+                </div>
+                <div class="campos">
+                    <label>ÓLEO 900ml(AVULSO)</label>
+                    <input type="number" id="oleoAvulso"/>
+                </div>
+                <div class="campos">
+                    <label>SANGUE(AVULSO)</label>
+                    <input type="number" id="sangueAvulso"/>
+                </div>
+                <div class="campos">
+                    <button type="button" onclick="calcular(); mudarTexto(this);" class="igual">Calcular</button>
+                    <label id="soma"> </label>   
                 </div>
             </form>
         </div>

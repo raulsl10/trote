@@ -208,11 +208,7 @@ th, td {
     padding: 8px;
     text-align: left;
 }
-.foto{
-    box-shadow: 3px 3px;
-}
 .foto:hover{
-    box-shadow: 4px 4px;
     opacity: 90%;
 }
 ol li {
