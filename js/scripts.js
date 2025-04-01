@@ -18,7 +18,7 @@ function calcular(){
     acaoSocial = document.getElementById("acaoSocial").value;
     fotoAs = document.getElementById("fotoAs").value;
     fotoAcao = document.getElementById("fotoAcao").value;
-
+    
     let soma = Number(mascote) + Number(homenagem) + 
                (2 * Number(leite))+
                (30 * Number(kitAvulso)) + 
