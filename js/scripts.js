@@ -1,38 +1,40 @@
 function calcular(){
     //vamoscriar duas variaveis
     //js as variaveis nao possuem tipo
-    let mascote, homenagem, leite, kitAvulso, suplementoAvulso, arroz5Avulso, arroz1Avulso, feijao2Avulso, feijao1Avulso, macarraoAvulso, oleoAvulso, sangueAvulso, acaoSocial, fotoAs, fotoAcao;
-    mascote = document.getElementById("mascote").value;
-    homenagem = document.getElementById("homenagem").value;
+    let mascote, homenagem, leite, kit, suplemento, arroz5, arroz1, feijao2, feijao1, macarrao, oleo, sangue, acaoSocial, fotoAs, fotoAcao, soma, equipe
+    mascote = Number (document.getElementById("mascote").value)
+    homenagem = Number(document.getElementById("homenagem").value)
     //recupera a quantidade de litros de leite
-    leite = document.getElementById("leite").value;
-    kitAvulso = document.getElementById("kitAvulso").value;
-    suplementoAvulso = document.getElementById("suplementoAvulso").value;
-    arroz5Avulso = document.getElementById("arroz5Avulso").value;
-    arroz1Avulso = document.getElementById("arroz1Avulso").value; 
-    feijao2Avulso = document.getElementById("feijao2Avulso").value;
-    feijao1Avulso = document.getElementById("feijao1Avulso").value;
-    macarraoAvulso = document.getElementById("macarraoAvulso").value;
-    oleoAvulso = document.getElementById("oleoAvulso").value;
-    sangueAvulso = document.getElementById("sangueAvulso").value;
-    acaoSocial = document.getElementById("acaoSocial").value;
-    fotoAs = document.getElementById("fotoAs").value;
-    fotoAcao = document.getElementById("fotoAcao").value;
+    leite = Number (document.getElementById("leite").value)
+    kit =Number (document.getElementById("kit").value)
+    suplemento = Number(document.getElementById("suplemento").value)
+    arroz5 = Number(document.getElementById("arroz5").value)
+    arroz1 = Number(document.getElementById("arroz1").value)
+    feijao2 = Number(document.getElementById("feijao2").value)
+    feijao1 = Number(document.getElementById("feijao1").value)
+    macarrao = Number(document.getElementById("macarrao").value)
+    oleo = Number(document.getElementById("oleo").value)
+    sangue = Number(document.getElementById("sangue").value)
+    acaoSocial = Number(document.getElementById("acaoSocial").value)
+    fotoAs = Number(document.getElementById("fotoAs").value)
+    fotoAcao = Number(document.getElementById("fotoAcao").value)
     
-    let soma = Number(mascote) + Number(homenagem) + 
-               (2 * Number(leite))+
-               (30 * Number(kitAvulso)) + 
-               (15 * Number(suplementoAvulso)) + 
-               (5 * Number(arroz5Avulso)) + 
-               (1 * Number(arroz1Avulso)) + 
-               (2 * Number(feijao2Avulso)) + 
-               (1 * Number(feijao1Avulso)) + 
-               (0.5 * Number(macarraoAvulso)) + 
-               (1 * Number(oleoAvulso)) + 
-               (20 * Number(sangueAvulso)) + 
-               (10 * Number(acaoSocial)) + 
-               Number(fotoAs) + 
-               Number(fotoAcao);
+    soma = mascote + homenagem + leite + (30 * (kit)) + suplemento + arroz5 + arroz1 
+    equipe == document.getElementById("equipe").value
+    if(equipe == "Laranja"){
+        if(kit >= 97){
+            soma = soma + 5000 + ((kit-97) * 30)
+        }
+        else if( kit >=78){
+            soma = soma + 4000 + ((kit-78) * 30)
+        }
+        else if (kit >= 49){
+            soma = soma + 2500 + ((kit-49) * 30)
+        }
+        else if(kit >=19){
+            soma = soma + 1000 + ((kit-19) * 30)
+        }
+    }
     document.getElementById("soma").innerHTML = `A soma é ${soma}`;
 }
 function mudarTexto(botao){
