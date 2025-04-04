@@ -159,6 +159,7 @@ img{
     padding: 20px;
     text-align: justify;
     box-shadow: 3px 3px #A9A9A9;
+    transition: background-color 0.3s;
 }
 h2 {
     text-align: center;
