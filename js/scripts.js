@@ -50,16 +50,12 @@ function mudarTexto(botao){
     botao. textContent= "Calculado";
 }
 function mudarCor(selectElement) {
-    // Pega o valor selecionado
     const corSelecionada = selectElement.value;
     
-    // Referência ao container
     const container = document.querySelector('.container');
     
-    // Remove qualquer classe de cor anterior
     container.classList.remove('cor-laranja', 'cor-preta', 'cor-roxa', 'cor-verde', 'cor-vermelha');
     
-    // Se uma cor válida foi selecionada, adiciona a classe correspondente
     if (corSelecionada !== 'Selecione') {
         container.classList.add(`cor-${corSelecionada.toLowerCase()}`);
     }
