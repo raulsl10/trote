@@ -31,15 +31,17 @@
             <h2>CALCULADORAS</h2>
             <form>
                 <div class="campos">
+                    <div id="corDisplay">
                     <label> SELECIONE A COR DA EQUIPE: </label>
-                    <select id="equipe">
+                    <select id="equipe" onchange="mudarCor(this)" >
                         <option value="Selecione">Selecione</option>
-                        <option value="Laranja"> Laranja</option>
-                        <option value="preta">Preta</option>
+                        <option value="Laranja">Laranja</option>
+                        <option value="Preta">Preta</option>
                         <option value="Roxa">Roxa</option>
                         <option value="Verde">Verde</option>
                         <option value="Vermelha">Vermelha</option>
                     </select>
+                </div>
                 </div>
                 <div class="campos">
                     <label>MASCOTE DA EQUIPE</label>

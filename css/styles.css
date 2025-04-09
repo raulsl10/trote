@@ -293,3 +293,26 @@ ol li {
 .igual:hover{
     cursor: pointer;
 }
+
+.cor-laranja {
+    background-color: #FF9F40;
+}
+
+.cor-preta {
+    background-color: #555555;
+    color: white;
+}
+
+.cor-roxa {
+    background-color: #A64AC9;
+    color: white;
+}
+
+.cor-verde {
+    background-color: #4CAF50;
+}
+
+.cor-vermelha {
+    background-color: #F44336;
+    color: white;
+}
