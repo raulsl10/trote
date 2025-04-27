@@ -1,7 +1,8 @@
 function calcular(){
-    let mascote, homenagem, leite, kit, suplemento, soma, equipe, sangue, arroz5Avulso, arroz1Avulso, feijao2Avulso, feijao1Avulso, macarraoAvulso, oleoAvulso, acaoSocial, fotoAs, fotoAcao;
+    let mascote, homenagem,animacao, leite, kit, suplemento, soma, equipe, sangue, arroz5Avulso, arroz1Avulso, feijao2Avulso, feijao1Avulso, macarraoAvulso, oleoAvulso, acaoSocial, fotoAs, fotoAcao;
     mascote = Number(document.getElementById("mascote").value)
     homenagem = Number(document.getElementById("homenagem").value)
+    animacao = Number(document.getElementById("animacao").value)
     leite = Number(document.getElementById("leite").value)
     kit = Number(document.getElementById("kit").value)
     suplemento = Number(document.getElementById("suplemento").value)
@@ -10,14 +11,13 @@ function calcular(){
     arroz1Avulso = Number(document.getElementById("arroz1Avulso").value)
     feijao2Avulso = Number(document.getElementById("feijao2Avulso").value)
     feijao1Avulso = Number(document.getElementById("feijao1Avulso").value)
-    feijao2Avulso = Number(document.getElementById("feijao2Avulso").value)
     macarraoAvulso = Number(document.getElementById("macarraoAvulso").value)
     oleoAvulso = Number(document.getElementById("oleoAvulso").value)
     acaoSocial = Number(document.getElementById("acaoSocial").value)
     fotoAs = Number(document.getElementById("fotoAs").value)
     fotoAcao = Number(document.getElementById("fotoAcao").value)
 
-    soma = mascote + homenagem + (2 * (leite)) (5 * Number(arroz5Avulso)) + (1 * (arroz1Avulso)) + (2 * (feijao2Avulso)) + (1 * (feijao1Avulso)) + (0.5 * (macarraoAvulso)) + (1 * (oleoAvulso)) + (20 * (sangueAvulso)) + (10 * (acaoSocial)) + (fotoAs) + (fotoAcao);
+    soma = mascote + homenagem + animacao + (2 * (leite)) + (5 * (arroz5Avulso)) + (1 * (arroz1Avulso)) + (2 * (feijao2Avulso)) + (1 * (feijao1Avulso)) + (0.5 * (macarraoAvulso)) + (1 * (oleoAvulso)) + (10 * (acaoSocial)) + fotoAs + fotoAcao
 
     equipe = document.getElementById("equipe").value
     if (equipe == "Laranja"){
